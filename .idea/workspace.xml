@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="537a011d-148d-46aa-a448-cf0cd7c3d4eb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/div_test.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/float.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/html_float.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/test_bootstrap.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="float.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="float.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/float.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_bootstrap.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/test_bootstrap.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -78,6 +85,7 @@
         <option value="$PROJECT_DIR$/web/div_test.html" />
         <option value="$PROJECT_DIR$/web/float.css" />
         <option value="$PROJECT_DIR$/web/html_float.html" />
+        <option value="$PROJECT_DIR$/web/test_bootstrap.html" />
       </list>
     </option>
   </component>
@@ -273,12 +281,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519353342290</updated>
-      <workItem from="1519353345659" duration="15314000" />
+      <workItem from="1519353345659" duration="15559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15314000" />
+    <option name="totallyTimeSpent" value="15559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -431,6 +439,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/test_bootstrap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
