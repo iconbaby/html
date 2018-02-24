@@ -6,11 +6,11 @@
 </head>
 <body>
 <div>
-    <form action="http://www.baidu.com" method="get">
+    <form action="http://www.baidu.com" method="get" autocomplete="on"  >
         <fieldset>
             <!--<legend>Personal information:</legend>-->
             First name:<br/>
-            <input type="text" name="firstname"/>
+            <input type="text" name="firstname" autofocus placeholder="firstname" required/>
             <br/>
             Last name:<br/>
             <input type="text" name="lastname"/>
@@ -55,9 +55,23 @@
             <input type="week" name="week_year ">
             <br/>
             Select a time:
-            <input type="time" name = "user_name">
+            <input type="time" name="user_name">
             <br/>
-            <input type="submit" name="sub" value="登录"/>
+            Datetime-local:
+            <br/>
+            <input type="datetime-local" name="dtime">
+            <br/>
+            Email:
+            <input type="email" name="email" autocomplete="off">
+            <br/>
+            <input type="search" name="googlesearch">
+            <br/>
+            <input type="url" name="homepage">
+            <br/>
+            <input type="file" name="file"  />
+            <br/>
+            <input type="submit" name="sub1" value="注册" >
+            <input type="submit" name="sub" value="登录" formaction="http://www.google.ca"formenctype="multipart/form-data" formmethod="post" formtarget="_blank"/>
         </fieldset>
     </form>
     <button type="button" onclick="alert('Hello World')">Click me!</button>
