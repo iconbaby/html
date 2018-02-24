@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:Birthday="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <form action="http://www.baidu.com" method="get">
+        <fieldset>
+            <!--<legend>Personal information:</legend>-->
+            First name:<br/>
+            <input type="text" name="firstname"/>
+            <br/>
+            Last name:<br/>
+            <input type="text" name="lastname"/>
+            <br/>
+            Password:<br/>
+            <input type="password" name="pwd">
+            <br/>
+            <input type="radio" name="sex" value="male" checked>Male
+            <br/>
+            <input type="radio" name="sex" value="female">Female
+            <br/>
+            <span>car: </span>
+            <select name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            <div>
+                <textarea name="message" row="30" cols="30">The cat was playing in the garden.The cat was playing in the garden.The cat was playing in the garden.The cat was playing in the garden.The cat was playing in the garden.</textarea>
+            </div>
+            <br/>
+
+            Vehicle:
+            <input type="checkbox" name="vehicle" value="Bike">I have a bike
+            <br/>
+            <input type="checkbox" name="vehicle" value="Car">I have a car
+            <br/>
+            Quantity(between 1 and 5):
+            <input type="number" name=" quantity" min="1" max="5"/>
+            <br/>
+            Birthday:
+            <input type="date" name="bday">
+            <br/>
+            <input type="color" name="favcolor">
+            <br/>
+            <input type="range" name="points" min="0" max="10">
+            <br/>
+            Birthday(month and year)
+            <input type="month" name="bdaymonty">
+            <br/>
+            <input type="week" name="week_year ">
+            <br/>
+            Select a time:
+            <input type="time" name = "user_name">
+            <br/>
+            <input type="submit" name="sub" value="登录"/>
+        </fieldset>
+    </form>
+    <button type="button" onclick="alert('Hello World')">Click me!</button>
+
+</div>
+
+</body>
+</html>
